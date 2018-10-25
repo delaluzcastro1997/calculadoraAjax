@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="container">
+            <button id="boton1" onclick="materialize()">Materialize</button>
+            <button id="boton2" onclick="foundation()">Foundation</button>
+            <button id="boton3" onclick="bootstrapp()">Bootstrap</button>
+        </div>
+	<div class="container">
+	Operador1: <input type="text" id="operador1"><br /><br />
+	Operaci&oacute;n: <select name="operacion" id="operacion">
+		<option value="1">+</option>
+		<option value="2">-</option>
+		<option value="3">*</option>
+		<option value="4">/</option>
+		<option value="5">%</option>
+		
+	</select><br /><br />
+	Operador2: <input type="text" id="operador2"><br /><br />
+
+	<input type="submit" value="Enviar" onclick="calcular()">
+	<div id="mensaje"></div>
+	    <div id="fila4">
+        <div id="col4_1">
+            <footer class="page-footer">
+                <div class="footer-copyright">
+                    &copy; 2018 Jose Santiago De la luz Castro
+                </div>
+            </footer>
+        </div>
+    </div>
+	</div>
+
+	<script type="text/javascript" src="js/calculadora.js"></script>
+	<script type="text/javascript" src="js/framework.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+</body>
+</html>
